@@ -1,9 +1,12 @@
 # utils/db.py
 
 from pymongo import MongoClient
-from dotenv import load_dotenv
-import os
+import streamlit as st
 
-load_dotenv()
-client = MongoClient(os.getenv("MONGO_URI"))
+# Use Streamlit's secrets system
+@st.cache_resource
+def init_connection():
+    return MongoClient(st.secrets["MONGO_URI"])
+
+client = init_connection()
 db = client["emotion_app"]
