@@ -8,8 +8,8 @@
 
 ## 🌟 Live Demo
 
-🔗 **Try it Now**: [https://your-username-mindmate.streamlit.app](https://your-username-mindmate.streamlit.app)  
-*(Replace with your actual URL once deployed)*
+🔗 **Try it Now**: [https://mind-mate-lnihxnyvxbvtdcjhig23zb.streamlit.app/]
+
 
 ---
 
